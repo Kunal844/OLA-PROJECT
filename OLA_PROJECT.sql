@@ -66,7 +66,7 @@ incomplete_rides_reason
 from "Bookings"
 where incomplete_rides ='Yes';
 
-
+--For Retrieval Of all Query.
 --1.Retrieve all successful bookings:
 Select * from Successful_Bookings;
 
@@ -96,3 +96,4 @@ Select * from Total_Booking;
 
 --10. List all incomplete rides along with the reason:
 Select * from Incomplete_Rides;
+
